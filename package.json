@@ -1,7 +1,7 @@
 {
   "name": "api-node-cleanarch-tdd",
   "version": "1.0.0",
-  "description": "API em Node.js usando Clean Arch e programação orientada a teste.",
+  "description": "API em NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/AlissonSantos17/api-node-cleanarch-tdd#readme",
   "devDependencies": {
-    "git-commit-msg-linter": "^5.0.4"
+    "@types/node": "^20.4.6",
+    "git-commit-msg-linter": "^5.0.4",
+    "typescript": "^5.1.6"
   }
 }
