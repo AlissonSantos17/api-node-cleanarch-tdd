@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/AlissonSantos17/api-node-cleanarch-tdd/issues"
   },
-  "homepage": "https://github.com/AlissonSantos17/api-node-cleanarch-tdd#readme"
+  "homepage": "https://github.com/AlissonSantos17/api-node-cleanarch-tdd#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^5.0.4"
+  }
 }
