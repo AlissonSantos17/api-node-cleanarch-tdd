@@ -4,7 +4,7 @@
   "description": "API em NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --watch",
+    "test": "jest --passWithNoTests --watchAll",
     "test:staged": "jest --passWithNoTests",
     "prepare": "husky install"
   },
