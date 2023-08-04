@@ -4,8 +4,8 @@
   "description": "API em NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest",
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests",
     "prepare": "husky install"
   },
   "repository": {
