@@ -4,8 +4,8 @@
   "description": "API em NodeJs, Typescript, TDD, DDD, Clean Architecture e SOLID.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
-    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand —no-cache",
+    "test:verbose": "jest --passWithNoTests --runInBand —no-cache",
     "test:unit": "yarn test -- --watchAll -c jest-unit-config.js",
     "test:integration": "yarn test -- --watchAll -c jest-integration-config.js",
     "test:staged": "yarn test -- --findRelatedTests",
